@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  color: #222;
+  font-family: Arial, sans-serif;
+}
+ 
+body.escuro {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+ 
+.resultado-card {
+  width: 300px;
+  text-align: center;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+ 
+body.escuro .resultado-card {
+  background-color: #2b2b2b;
+}
+ 
+.resultado-titulo {
+  margin: 0 0 16px;
+}
+ 
+.btn-refazer {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #3a7bd5;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+ 
+.btn-refazer:hover {
+  background-color: #2f66b3;
+}

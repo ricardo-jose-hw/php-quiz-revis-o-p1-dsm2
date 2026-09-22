@@ -1,0 +1,363 @@
+[
+  {
+    "numero": 1,
+    "pergunta": "Qual comparação entre cookies e sessões está correta?",
+    "pontos": 3,
+    "opcoes": [
+      "Cookie fica no navegador; sessão fica no servidor.",
+      "Cookie fica no servidor; sessão fica no navegador.",
+      "Cookie e sessão ficam sempre no navegador.",
+      "Cookie e sessão ficam sempre no servidor."
+    ],
+    "resposta": "Cookie fica no navegador; sessão fica no servidor."
+  },
+  {
+    "numero": 2,
+    "pergunta": "Considerando $linha = \"Teclado,150,10,teclado.jpg\", qual valor é armazenado em $dados[2] após explode(\",\", $linha)?",
+    "pontos": 3,
+    "opcoes": [
+      "Teclado",
+      "150",
+      "10",
+      "teclado.jpg"
+    ],
+    "resposta": "10"
+  },
+  {
+    "numero": 3,
+    "pergunta": "Em uma estrutura switch, qual elemento encerra a execução do case atual?",
+    "pontos": 2,
+    "opcoes": [
+      "continue",
+      "break",
+      "stop",
+      "exit"
+    ],
+    "resposta": "break"
+  },
+  {
+    "numero": 4,
+    "pergunta": "Qual é a principal finalidade do PHP no desenvolvimento web?",
+    "pontos": 3,
+    "opcoes": [
+      "Apenas formatar textos no navegador",
+      "Criar exclusivamente imagens",
+      "Executar lógica no servidor",
+      "Substituir o sistema operacional"
+    ],
+    "resposta": "Executar lógica no servidor"
+  },
+  {
+    "numero": 5,
+    "pergunta": "Qual função converte uma resposta JSON em uma estrutura utilizável pelo PHP?",
+    "pontos": 4,
+    "opcoes": [
+      "json_encode()",
+      "json_decode()",
+      "explode()",
+      "parse_json()"
+    ],
+    "resposta": "json_decode()"
+  },
+  {
+    "numero": 6,
+    "pergunta": "Qual comando inicia uma sessão PHP?",
+    "pontos": 4,
+    "opcoes": [
+      "session_start()",
+      "session_begin()",
+      "start_session()",
+      "session_open()"
+    ],
+    "resposta": "session_start()"
+  },
+  {
+    "numero": 7,
+    "pergunta": "Quais recursos podem ser utilizados para consumir uma API em PHP?",
+    "pontos": 4,
+    "opcoes": [
+      "array_pop()",
+      "cURL",
+      "session_start()",
+      "fwrite()"
+    ],
+    "resposta": "cURL"
+  },
+  {
+    "numero": 8,
+    "pergunta": "Qual sequência representa corretamente uma operação básica de escrita em arquivo?",
+    "pontos": 4,
+    "opcoes": [
+      "fwrite(), session_start(), echo",
+      "filesize(), nl2br(), $_GET",
+      "fclose(), fopen(), json_decode()",
+      "fopen(), fwrite(), fclose()"
+    ],
+    "resposta": "fopen(), fwrite(), fclose()"
+  },
+  {
+    "numero": 9,
+    "pergunta": "Qual operador deve ser utilizado para concatenar textos e variáveis em PHP?",
+    "pontos": 2,
+    "opcoes": [
+      "Barra (/)",
+      "Vírgula (,)",
+      "Dois-pontos (:)",
+      "Ponto (.)"
+    ],
+    "resposta": "Ponto (.)"
+  },
+  {
+    "numero": 10,
+    "pergunta": "Qual atributo é obrigatório no formulário HTML para permitir upload de arquivos?",
+    "pontos": 3,
+    "opcoes": [
+      "enctype=\"multipart/form-data\"",
+      "enctype=\"text/plain\"",
+      "action=\"multipart\"",
+      "method=\"upload\""
+    ],
+    "resposta": "enctype=\"multipart/form-data\""
+  },
+  {
+    "numero": 11,
+    "pergunta": "Considerando $frutas = [\"Maçã\", \"Banana\", \"Laranja\"], qual é o índice de Banana?",
+    "pontos": 3,
+    "opcoes": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "resposta": "1"
+  },
+  {
+    "numero": 12,
+    "pergunta": "Em radio buttons, como as opções devem ser configuradas para permitir apenas uma seleção do grupo?",
+    "pontos": 4,
+    "opcoes": [
+      "Usando o mesmo atributo name em todas as opções.",
+      "Usando um name diferente para cada opção.",
+      "Usando o mesmo value em todas as opções.",
+      "Removendo o atributo name."
+    ],
+    "resposta": "Usando o mesmo atributo name em todas as opções."
+  },
+  {
+    "numero": 13,
+    "pergunta": "Qual conversão transforma o valor 12.8 em um número inteiro?",
+    "pontos": 4,
+    "opcoes": [
+      "(string) 12.8",
+      "(float) 12.8",
+      "(int) 12.8",
+      "(array) 12.8"
+    ],
+    "resposta": "(int) 12.8"
+  },
+  {
+    "numero": 14,
+    "pergunta": "Quais informações podem ser encontradas em $_FILES durante um upload?",
+    "pontos": 4,
+    "opcoes": [
+      "name",
+      "session_id",
+      "password",
+      "cookie_id"
+    ],
+    "resposta": "name"
+  },
+  {
+    "numero": 15,
+    "pergunta": "Qual configuração é recomendada para receber várias opções selecionadas em checkboxes?",
+    "pontos": 3,
+    "opcoes": [
+      "name=\"interesses[]\"",
+      "name=\"checkbox\" repetido sem valor",
+      "method=\"array\"",
+      "name=\"interesses\" sem colchetes"
+    ],
+    "resposta": "name=\"interesses[]\""
+  },
+  {
+    "numero": 16,
+    "pergunta": "Na URL produto.php?id=10&quantidade=2, quais são os valores recuperados por $_GET?",
+    "pontos": 3,
+    "opcoes": [
+      "id = 2 e quantidade = 10",
+      "id = produto.php e quantidade = URL",
+      "Nenhum valor pode ser recuperado",
+      "id = 10 e quantidade = 2"
+    ],
+    "resposta": "id = 10 e quantidade = 2"
+  },
+  {
+    "numero": 17,
+    "pergunta": "Em um formulário HTML, qual atributo define o arquivo que receberá os dados enviados?",
+    "pontos": 2,
+    "opcoes": [
+      "method",
+      "name",
+      "action",
+      "target"
+    ],
+    "resposta": "action"
+  },
+  {
+    "numero": 18,
+    "pergunta": "Qual instrução PHP é utilizada para exibir informações?",
+    "pontos": 3,
+    "opcoes": [
+      "echo",
+      "show",
+      "display",
+      "write"
+    ],
+    "resposta": "echo"
+  },
+  {
+    "numero": 19,
+    "pergunta": "Qual função move o arquivo temporário recebido por upload para a pasta desejada?",
+    "pontos": 3,
+    "opcoes": [
+      "move_file()",
+      "upload_file()",
+      "move_uploaded_file()",
+      "copy_upload()"
+    ],
+    "resposta": "move_uploaded_file()"
+  },
+  {
+    "numero": 20,
+    "pergunta": "Qual modo de fopen() adiciona dados ao final de um arquivo sem apagar o conteúdo existente?",
+    "pontos": 4,
+    "opcoes": [
+      "r",
+      "w",
+      "a",
+      "x"
+    ],
+    "resposta": "a"
+  },
+  {
+    "numero": 21,
+    "pergunta": "Qual estrutura de repetição é mais adequada quando sabemos aproximadamente quantas vezes repetir?",
+    "pontos": 3,
+    "opcoes": [
+      "switch",
+      "isset",
+      "for",
+      "if"
+    ],
+    "resposta": "for"
+  },
+  {
+    "numero": 22,
+    "pergunta": "Quais afirmações sobre arrays estão corretas?",
+    "pontos": 4,
+    "opcoes": [
+      "Arrays armazenam vários valores.",
+      "Todo array começa obrigatoriamente no índice 1.",
+      "Arrays sempre possuem apenas valores numéricos.",
+      "Arrays podem armazenar apenas um valor por vez."
+    ],
+    "resposta": "Arrays armazenam vários valores."
+  },
+  {
+    "numero": 23,
+    "pergunta": "Qual declaração cria corretamente uma variável string contendo o nome Carlos?",
+    "pontos": 3,
+    "opcoes": [
+      "$nome = \"Carlos\";",
+      "#nome = \"Carlos\";",
+      "nome = \"Carlos\";",
+      "var nome = \"Carlos\";"
+    ],
+    "resposta": "$nome = \"Carlos\";"
+  },
+  {
+    "numero": 24,
+    "pergunta": "Qual estrutura deve ser usada para executar um bloco quando uma condição for verdadeira e outro quando uma condição for falsa?",
+    "pontos": 3,
+    "opcoes": [
+      "echo e print",
+      "for e foreach",
+      "case e fopen",
+      "if e else"
+    ],
+    "resposta": "if e else"
+  },
+  {
+    "numero": 25,
+    "pergunta": "Qual estrutura é apropriada para percorrer cada elemento de um array?",
+    "pontos": 3,
+    "opcoes": [
+      "fclose",
+      "default",
+      "session_start",
+      "foreach"
+    ],
+    "resposta": "foreach"
+  },
+  {
+    "numero": 26,
+    "pergunta": "Qual função retorna a quantidade de elementos de um array?",
+    "pontos": 4,
+    "opcoes": [
+      "length()",
+      "size()",
+      "count()",
+      "total()"
+    ],
+    "resposta": "count()"
+  },
+  {
+    "numero": 27,
+    "pergunta": "Quais afirmações sobre cookies estão corretas?",
+    "pontos": 4,
+    "opcoes": [
+      "Cookies armazenam dados exclusivamente no servidor.",
+      "setcookie() deve ser chamada antes de qualquer saída HTML.",
+      "Cookies são armazenados exclusivamente em bancos de dados.",
+      "Cookies não podem armazenar preferências."
+    ],
+    "resposta": "setcookie() deve ser chamada antes de qualquer saída HTML."
+  },
+  {
+    "numero": 28,
+    "pergunta": "Qual é a principal diferença entre while e do...while?",
+    "pontos": 5,
+    "opcoes": [
+      "while verifica a condição antes da execução; do...while executa o bloco pelo menos uma vez e verifica a condição depois.",
+      "while sempre executa o bloco pelo menos uma vez; do...while nunca executa sem condição.",
+      "while é usado apenas para arrays; do...while é usado apenas para números.",
+      "Não existe diferença entre while e do...while."
+    ],
+    "resposta": "while verifica a condição antes da execução; do...while executa o bloco pelo menos uma vez e verifica a condição depois."
+  },
+  {
+    "numero": 29,
+    "pergunta": "Qual função verifica se determinado valor existe em um array?",
+    "pontos": 2,
+    "opcoes": [
+      "array_pop()",
+      "filesize()",
+      "in_array()",
+      "array_shift()"
+    ],
+    "resposta": "in_array()"
+  },
+  {
+    "numero": 30,
+    "pergunta": "Sobre os métodos GET e POST, assinale as afirmações corretas.",
+    "pontos": 4,
+    "opcoes": [
+      "POST não torna os dados automaticamente secretos.",
+      "POST sempre criptografa os dados enviados.",
+      "GET não permite enviar parâmetros.",
+      "GET nunca utiliza a URL para enviar dados."
+    ],
+    "resposta": "POST não torna os dados automaticamente secretos."
+  }
+
+]
